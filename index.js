@@ -8,9 +8,9 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 
-newID = oldID + 1000000000;
-ageIsValid = Number.isInteger(currentAge);
-randomNumber = Math.floor(Math.random() * 20) + 1;
-randomInteger = Math.floor(randomNumber);
-newrandomInteger = Math.floor(randomNumber) + 1000000000;
-randomUserID = Math.floor(newrandomInteger) + 1;
+const newID = oldID + 1000000000;
+const ageIsValid = Number.isInteger(currentAge);
+const randomNumber = Math.floor(Math.random() * 20) + 1;
+const randomInteger = Math.floor(randomNumber);
+const newrandomInteger = Math.floor(randomNumber) + 1000000000;
+const randomUserID = Math.floor(newrandomInteger) + 1;
